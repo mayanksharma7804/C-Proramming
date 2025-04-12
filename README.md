@@ -87,7 +87,7 @@ You will need a C compiler to run the programs in this repository. Some popular 
 4. **Run the Program**  
    After compilation, run the program:
    ````bash
-   ./program_name```
+   ./program_name
    ````
 
 **Example**  
