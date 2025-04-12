@@ -1,81 +1,100 @@
-C Programming Repository 🚀
-Welcome to my C Programming Repository! This repository contains a collection of C programs covering fundamental to advanced concepts, organized into structured categories. Whether you're a beginner or an experienced programmer, you'll find useful examples here.
+# C Programming Repository 🚀
 
-📂 Repository Structure
-Folder	Description
-01_Basics	Basic C programs covering variables, data types, operators, and I/O operations.
-02_If_Else	Programs demonstrating conditional statements (if, else, switch).
-03_Loops	Loop-based programs, including:
-- Do While
-- For
-- While
-- Questions (practice problems)
-04_Strings	String manipulation, concatenation, comparison, and other operations.
-05_Intermediate	Intermediate-level programs:
-- Huffman Encoding
-- Mini Database
-- Banking System
-- To-Do App
-- Web Server
-- Student Records
-06_Advanced	Advanced C concepts:
-- Chat App
-- Client-Server Communication
-- Compiler
-- Custom Shell
-- Dynamic Memory Allocation
-- Linux Process Handling
-- LRU Cache
-Spam	Algorithm-focused programs (sorting, searching, matrix operations).
-🛠️ Getting Started
-⚙️ Prerequisites
-A C compiler (e.g., GCC, Clang, or MSVC for Windows).
+Welcome to my **C Programming Repository**! This repository contains various C programs categorized into different sections based on the topics. Each folder contains programs focusing on specific C programming concepts.
 
-Basic knowledge of C programming.
+## 📂 Folder Structure
 
-🖥️ Running the Programs
-Clone the Repository
+- **01_Basics**  
+  Contains basic C programs focusing on fundamental concepts such as variables, data types, operators, and input/output operations.
+
+- **02_If Else**  
+  This folder includes programs related to conditional statements like `if`, `else`, `switch`, and other related constructs.
+
+- **03_Loops**  
+  Programs for different types of loops, including:
+
+  - **Do While**: Programs using the `do while` loop.
+  - **For**: Programs using the `for` loop.
+  - **While**: Programs using the `while` loop.
+  - **Questions**: A collection of problems using loops to reinforce the concepts.
+
+- **04_Strings**  
+  Programs related to string handling in C, including string manipulation, concatenation, and comparisons.
+
+- **05_Intermediate**  
+  Intermediate-level programs including more complex problems like:
+
+  - **Huffman Encoding**
+  - **Mini Database**
+  - **Downloader**
+  - **Banking System**
+  - **To-Do Application**
+  - **Web Server**
+  - **Student Records**
+
+- **06_Advanced**  
+  Advanced C programming concepts, including:
+
+  - **Chat App**
+  - **Client-Server Communication**
+  - **Compiler**
+  - **Custom Shell**
+  - **Dynamic Memory Allocation**
+  - **Linux Process Handling**
+  - **LRU Cache**
+
+- **Spam**  
+  A collection of programs, mostly focused on different algorithms, like sorting, searching, and matrix operations.
+
+---
+
+## 🛠️ Getting Started
+
+### ⚙️ Prerequisites
+
+You will need a C compiler to run the programs in this repository. Some popular compilers for C include:
+
+- GCC (GNU Compiler Collection)
+- Clang
+- Microsoft Visual Studio (for Windows users)
+
+### 🖥️ How to Run
+
+1. **Clone the Repository**  
+    Clone the repository using `git`:
+
+   ```bash
+   git clone https://github.com/mayanksharma7804/C-Proramming.git
+   Navigate to the Folder
+   Navigate to the specific folder where you want to run the program:
+   ```
 
 bash
 Copy
-git clone https://github.com/mayanksharma7804/C-Proramming.git
-cd C-Proramming
-Compile & Execute
-Navigate to a program's directory and compile it:
+Edit
+cd C-Proramming/01_Basics
+Compile the Program
+Use the C compiler to compile the .c file:
 
 bash
 Copy
+Edit
+gcc program_name.c -o program_name
+Run the Program
+After compilation, run the program:
+
+bash
+Copy
+Edit
+./program_name
+👨‍💻 Example
+To run a program from the 01_Basics folder:
+
+bash
+Copy
+Edit
 cd 01_Basics
 gcc Hello.c -o Hello
 ./Hello
-👨‍💻 Example: Running a Basic Program
-bash
-Copy
-cd 01_Basics
-gcc HelloWorld.c -o HelloWorld
-./HelloWorld
-Output:
-
-Copy
-Hello, World!
 🤝 Contributing
-Contributions are welcome! 🎉
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/your-feature).
-
-Commit your changes (git commit -m "Add your message").
-
-Push to the branch (git push origin feature/your-feature).
-
-Open a Pull Request.
-
-Let’s make this repository even better together! 💪
-
-📜 License
-This project is open-source. Feel free to use, modify, and distribute the code.
-
-🔗 Connect with Me
-GitHub
-LinkedIn (replace with your actual LinkedIn link)
+Feel free to fork the repository, make changes, and submit pull requests. If you have any improvements or suggestions, do open an issue or a pull request. Let's make this repository better together! 💪
