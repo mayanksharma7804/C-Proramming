@@ -63,13 +63,41 @@ You will need a C compiler to run the programs in this repository. Some popular 
 1. **Clone the Repository**  
     Clone the repository using `git`:
 
-   ```bash
+   ````bash
    git clone https://github.com/mayanksharma7804/C-Proramming.git```
+
+   ````
 
 2. **Navigate to the Folder**  
    Navigate to the specific folder where you want to run the program:
-   ```bash
+
+   ````bash
    cd C-Proramming/01_Basics```
+
+   ````
+
+3. **Compile the Program**  
+   Use the C compiler to compile the .c file:
+
+   ````bash
+   gcc program_name.c -o program_name```
+
+   ````
+
+4. **Run the Program**  
+   After compilation, run the program:
+   ````bash
+   ./program_name```
+   ````
+
+**Example**  
+ To run a program from the 01_Basics folder:
+
+```bash
+cd 01_Basics
+gcc Hello.c -o Hello
+./Hello
+```
 
 🤝 Contributing
 Feel free to fork the repository, make changes, and submit pull requests. If you have any improvements or suggestions, do open an issue or a pull request. Let's make this repository better together! 💪
