@@ -99,5 +99,5 @@ gcc Hello.c -o Hello
 ./Hello
 ```
 
-🤝 Contributing
+**🤝 Contributing**
 Feel free to fork the repository, make changes, and submit pull requests. If you have any improvements or suggestions, do open an issue or a pull request. Let's make this repository better together! 💪
